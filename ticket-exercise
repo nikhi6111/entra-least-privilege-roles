@@ -1,0 +1,30 @@
+# Least Privilege Ticket Exercise — VDR
+
+I chose these roles before checking Microsoft’s documentation.
+
+| Task | My original choice | Reviewed choice |
+|---|---|---|
+| Reset a non-admin employee’s password | Password Administrator | Password Administrator |
+| Create a new employee account | User Administrator | User Administrator |
+| Create a Finance security group | Global Administrator | Groups Administrator |
+| Assign User Administrator to Taylor | Privileged Role Administrator | Privileged Role Administrator |
+| Read sign-in logs | Reports Reader | Reports Reader |
+| Reset a Global Administrator’s password | Password Administrator | Privileged Authentication Administrator |
+
+## What I learned
+
+- Global Administrator grants more permissions than needed to create a group.
+- Password reset permissions depend on the target user’s administrator role.
+- Password Administrator cannot reset a Global Administrator’s password.
+- Creating user accounts and assigning administrator roles require different permissions.
+
+## Assumptions
+
+The employee in the first ticket has no administrator role.
+The Finance group is a normal security group, not a role-assignable group.
+The administrator in the final ticket holds Global Administrator.
+
+## References
+
+- [Least privileged roles by task](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-by-task)
+- [Microsoft Entra role reference](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference)
