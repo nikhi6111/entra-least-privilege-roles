@@ -1,0 +1,1 @@
+# entra-least-privilege-roles
