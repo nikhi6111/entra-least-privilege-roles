@@ -1,0 +1,21 @@
+# Role Assignment Rationale — VDR
+
+| User | Role | Business need |
+|---|---|---|
+| Casey Patel | Password Administrator | Reset passwords for regular employees without managing user accounts or reading audit logs. |
+| Taylor Brooks | User Administrator | Create and manage employee accounts. |
+| Jordan Lee | Reports Reader | Read sign-in and audit reports without changing directory settings. |
+
+## Validation Completed
+- Casey successfully reset Venkat’s password.
+- User creation was disabled for Casey.
+- Casey was denied access to audit logs.
+- Reviewed successful audit events for all three role assignments.
+
+## Validation Pending
+- Test Taylor’s user-management permissions.
+- Test Jordan’s report-reading permissions.
+
+## Least Privilege
+Assign permissions based on the required task.
+Use a narrower role when broader administrative access is unnecessary.
