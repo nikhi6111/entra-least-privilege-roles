@@ -1,0 +1,23 @@
+# Emergency Access Accounts — VDR Lab
+
+## Purpose
+Maintain a recovery path if normal administrator access becomes unavailable.
+
+## Configuration
+- Created emergency-access-01 and emergency-access-02.
+- Assigned Global Administrator to both accounts.
+- Checked Authentication methods for both accounts.
+- Both displayed “No usable methods.”
+
+## Current Status
+Incomplete — not ready for emergency use.
+
+## Remaining Work
+- Configure phishing-resistant authentication.
+- Store recovery credentials securely.
+- Test sign-in and administrative access for each account.
+- Configure monitoring for emergency-account activity.
+
+## Lab Limitation
+FIDO2 security keys are unavailable in this lab.
+Authentication setup and recovery testing remain pending.
