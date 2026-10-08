@@ -12,9 +12,11 @@
 - Casey was denied access to audit logs.
 - Reviewed successful audit events for all three role assignments.
 
-## Validation Pending
-- Test Taylor’s user-management permissions.
-- Test Jordan’s report-reading permissions.
+## Additional Validation Completed
+- Taylor created VDR Lab2 Test User.
+- Taylor deleted the test user and confirmed it appeared in Deleted users.
+- Jordan accessed audit logs and sign-in logs.
+- User creation was disabled for Jordan.
 
 ## Least Privilege
 Assign permissions based on the required task.
