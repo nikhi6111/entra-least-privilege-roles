@@ -40,3 +40,10 @@ and monitoring remain pending.
 ## Key Lesson
 Least privilege means assigning only the permissions
 required for a person’s responsibilities.
+## Screenshot Evidence
+
+### Reports Reader — Sign-in Logs
+Jordan Lee accessed the sign-in logs during role testing.
+Email addresses, IP addresses, and locations are redacted.
+
+![Sign-in log evidence](./jordan-sign-in-logs-redacted.png)
