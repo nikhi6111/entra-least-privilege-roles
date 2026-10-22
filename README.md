@@ -58,3 +58,8 @@ While signed in as Jordan Lee, the Create new user option was disabled.
 The temporary VDR lab2-test-user account appears in Deleted users after the user-management test. This screenshot documents the deleted account state; the deletion audit record identifies the actor. User principal names and the object ID are redacted.
 
 ![Deleted test account](./taylor-deleted-test-user-redacted.png)
+
+### Password Administrator — Log Options Disabled
+The directory Overview identifies Casey Patel as Password Administrator and shows the Sign-in logs and Audit logs navigation options disabled. This screenshot documents the disabled navigation, rather than an access-denied error page. Account details, tenant identifiers, and the primary domain are redacted.
+
+![Casey Password Administrator with disabled log options](./casey-log-options-disabled-redacted.png)
