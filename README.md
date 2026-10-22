@@ -53,3 +53,8 @@ Email addresses, IP addresses, and locations are redacted.
 While signed in as Jordan Lee, the Create new user option was disabled.
 
 ![User creation disabled](./jordan-user-creation-disabled-redacted.png)
+
+### User Administrator — Deleted Test Account
+The temporary VDR lab2-test-user account appears in Deleted users after the user-management test. This screenshot documents the deleted account state; the deletion audit record identifies the actor. User principal names and the object ID are redacted.
+
+![Deleted test account](./taylor-deleted-test-user-redacted.png)
